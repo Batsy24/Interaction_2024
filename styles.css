@@ -1,11 +1,11 @@
 @font-face{
     font-family: pixelFontStraight;
-    src: url(/straight.otf);
+    src: url(straight.otf);
 }
 
 @font-face {
     font-family: pixelFontItalic;
-    src: url(/italic.otf);
+    src: url(italic.otf);
 }
 
 h1{
