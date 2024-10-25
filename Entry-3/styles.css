@@ -1,0 +1,44 @@
+/* body{
+    --height: 80vmax;
+    --bgBeige: #d6945c;
+    margin: 0;
+    display: flex;
+    overflow: hidden;
+    background-color: var(--bgBeige);
+}
+
+.backgrounds{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    min-height: 100vmin;
+    align-items: center;
+}
+
+.mainImg{
+    height: var(--height);
+} */
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    margin: 0rem;
+    overflow: hidden;
+}
+
+.image{
+    width: 70vmin;
+    height: 70vmin;
+    object-fit: cover;
+    object-position: center;
+}
+
+#series{
+    display: flex;
+    gap: 6vmin;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    transform: translate(0%, -50%);
+}

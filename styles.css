@@ -1,0 +1,35 @@
+@font-face{
+    font-family: pixelFontStraight;
+    src: url(/straight.otf);
+}
+
+@font-face {
+    font-family: pixelFontItalic;
+    src: url(/italic.otf);
+}
+
+h1{
+    text-align: center;
+    font-family: pixelFontStraight;
+    font-size: 7rem;
+}
+
+i{
+    font-family: pixelFontItalic;
+}
+
+h4{
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-style: normal;
+    text-align: center;
+  }
+
+p{
+    text-align: center;
+}
+
+a{
+    font-size: 1.2rem;
+}
